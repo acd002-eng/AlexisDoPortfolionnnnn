@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #05000037;
+}
+
+#home {
+  background-image: url("../images/city.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 220px;
+  margin-bottom: 0;
+}
+
+.navbar {
+  color: rgb(3, 3, 185);
+}
+
+#home h1 {
+  font-weight: bold;
+    color: white;
+  font-size: 5rem;
+}
+
+#home p {
+  color: white;
+  font-size: 2rem;
+}
+
+#home .btn {
+  font-size: 1.3rem;
+  padding: 12px 25px;
+}
+
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+h2 {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+#about {
+  background-color: white;
+  padding: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  border-radius: 10px;
+}
+
+#about h2 {
+  font-size: 3rem;
+}
+
+#about p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+#projects {
+  background-color: white;
+  padding: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  border-radius: 10px;
+}
+
+#projects h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+#projects .card {
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#projects h3 {
+  font-size: 2rem;
+}
+
+#projects p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+#projects .card-img-top {
+  width: 90%;
+  height: 220px;
+  object-fit: contain;
+  margin: 15px auto 0;
+}
+
+#resume {
+  background-color: white;
+  padding: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  border-radius: 10px;
+}
+
+#resume h2 {
+  font-size: 3rem;
+}
+
+#resume p {
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+}
+
+#resume .btn {
+  font-size: 1.2rem;
+  padding: 12px 25px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card h5 {
+  margin-top: 1.5rem;
+}
+
+footer {
+  padding: 1rem;
+}
